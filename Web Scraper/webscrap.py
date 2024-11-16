@@ -40,9 +40,8 @@ def google_search(query, num_results=10):
     return results
 
 
-#print('enter query:')  #------> runtime 
-#query = input()
-query = 'python'
+print('enter query:')  #------> runtime 
+query = input()
 results = google_search(query,  num_results=10)
 
 for idx, result in enumerate(results, start=1):
